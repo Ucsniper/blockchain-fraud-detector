@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: blockchain-fraud-detector
@@ -7,3 +8,14 @@ services:
     envVars:
       - key: FLASK_ENV
         value: production
+=======
+services:
+  - type: web
+    name: blockchain-fraud-detector
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: FLASK_ENV
+        value: production
+>>>>>>> 8272e736669d73bee04ec8450303df87659d9afc
